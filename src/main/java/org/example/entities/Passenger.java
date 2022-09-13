@@ -2,11 +2,9 @@ package org.example.entities;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.util.Objects;
 
-@ToString
 @Getter
 @Setter
 public class Passenger {

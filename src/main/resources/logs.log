@@ -956,3 +956,194 @@
 2022-09-13 21:36:24 INFO  RandomGenerator:23 - a random int from range [0,4] has been generated(excepting banned values)
 2022-09-13 21:36:24 INFO  RandomGenerator:23 - a random int from range [0,4] has been generated(excepting banned values)
 2022-09-13 21:36:24 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:28 INFO  RandomGenerator:28 - a random int from range [5,16] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,15] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:14 - a random int from range [0,9] has been generated
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:28 INFO  Lift:49 - created new Lift instance
+2022-09-13 21:38:28 INFO  Lift:169 - initialized new Lift instance (with random data)
+2022-09-13 21:38:30 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:30 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:31 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:31 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:32 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:32 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:33 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:33 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:33 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:33 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:33 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:34 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:34 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:34 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:34 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:35 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:35 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:35 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:36 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:36 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:36 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:36 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:37 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:37 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:38 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:38 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:38 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:38 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:38 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:39 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:39 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:39 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:39 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:39 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:39 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:39 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:39 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:40 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:40 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:40 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:40 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:40 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:40 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:41 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:41 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:41 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:41 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed
+2022-09-13 21:38:42 INFO  Lift:77 - new step has been made
+2022-09-13 21:38:42 INFO  RandomGenerator:23 - a random int from range [0,19] has been generated(excepting banned values)
+2022-09-13 21:38:42 INFO  Lift:103 - current floor of the lift is changed

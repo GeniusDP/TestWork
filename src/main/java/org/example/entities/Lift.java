@@ -19,9 +19,9 @@ import static org.example.entities.Direction.*;
 @Log4j2
 public class Lift {
     private static final int MIN_NUMBER_OF_FLOORS = 5;//5
-    private static final int MAX_NUMBER_OF_FLOORS = 5;//20
+    private static final int MAX_NUMBER_OF_FLOORS = 20;//20
     private static final int LIFT_CAPACITY = 5;
-    private static final int MAX_INIT_NUMBER_ON_A_FLOOR = 5;//10
+    private static final int MAX_INIT_NUMBER_ON_A_FLOOR = 10;//10
 
     private static Lift lift;
 
@@ -124,17 +124,14 @@ public class Lift {
     }
 
     private void dropOff() {
-//        System.out.println("currentFloor = " + currentFloor);
         List<Passenger> droppedOff = liftState.stream()
                 .filter(passenger -> passenger.getFloorTo() == currentFloor)
                 .collect(Collectors.toList());
 
-//        System.out.println("dropped off = " + droppedOff);
         liftState = liftState.stream()
                 .filter(passenger -> !droppedOff.contains(passenger))
                 .collect(Collectors.toList());
-//        System.out.println("liftState2 : " + liftState);
-//        System.out.println("----------------");
+
         droppedOff.forEach(passenger -> {
             Set<Integer> set = Set.of(passenger.getFloorTo());
             int newNextFloor = RandomGenerator.generatePositiveIntExceptingValues(this.numberOfFloors, set);

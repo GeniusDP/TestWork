@@ -31,10 +31,10 @@ public class Floor {
 
     @Override
     public String toString() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (Passenger passenger : passengers) {
-            result += passenger + " ";
+            result.append(passenger).append(" ");
         }
-        return result;
+        return result.toString();
     }
 }
