@@ -32,7 +32,7 @@ public class Lift {
     private Lift(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
         this.direction = UP;
-        this.currentFloor = 0;
+        this.currentFloor = 1;
         this.floors = new ArrayList<>();
         this.liftState = new ArrayList<>();
         for (int floor = 0; floor < numberOfFloors; floor++) {
@@ -51,7 +51,7 @@ public class Lift {
             Scanner scanner = new Scanner(fr);
             this.numberOfFloors = scanner.nextInt();
             this.direction = UP;
-            this.currentFloor = 0;
+            this.currentFloor = 1;
             this.floors = new ArrayList<>();
             this.liftState = new ArrayList<>();
             for (int floor = 0; floor < numberOfFloors; floor++) {
@@ -69,16 +69,20 @@ public class Lift {
     }
 
     public void makeStep() {
-        dropOff();
-        aboard();
+
         if (direction == UP && isLast(currentFloor)) {
+            System.out.println("///////////////////////////////");
             direction = DOWN;
+            dropOff();
+            aboard();
             performOneLift();
             return;
         }
 
         if (direction == DOWN && isTheFirst(currentFloor)) {
             direction = UP;
+            dropOff();
+            aboard();
             performOneLift();
             return;
         }
@@ -86,6 +90,8 @@ public class Lift {
         if (isFinishFloor()) {
             direction = direction == UP ? DOWN : UP;
         }
+        dropOff();
+        aboard();
         performOneLift();
     }
 
@@ -94,13 +100,18 @@ public class Lift {
     }
 
     private void aboard() {
-        Floor floor = floors.get(currentFloor);
+        Floor floor = floors.get(currentFloor-1);
         List<Passenger> passengersToAboard = floor
                 .getPassengers()
-                .stream().filter(passenger -> (passenger.getFloorTo() > currentFloor) == (direction.getStep() > 0))
+                .stream().filter(passenger -> {
+                    return direction == UP
+                            ? passenger.getFloorTo() > currentFloor
+                            : passenger.getFloorTo() < currentFloor;
+                })
                 .limit(LIFT_CAPACITY - liftState.size())
                 .toList();
-
+//        System.out.println("<<<< aboard");
+//        System.out.println("passengersToAboard = " + passengersToAboard);
         for (Passenger p : passengersToAboard) {
             floor.removePassenger(p);
             liftState.add(p);
@@ -109,35 +120,40 @@ public class Lift {
     }
 
     private void dropOff() {
+//        System.out.println("currentFloor = " + currentFloor);
         List<Passenger> droppedOff = liftState.stream()
-                .filter(passenger -> passenger.getFloorTo() == currentFloor+1)
+                .filter(passenger -> passenger.getFloorTo() == currentFloor)
                 .toList();
-
+//        System.out.println("dropped off = " + droppedOff);
         liftState = liftState.stream()
                 .filter(passenger -> !droppedOff.contains(passenger))
                 .collect(Collectors.toList());
-
+//        System.out.println("liftState2 : " + liftState);
+//        System.out.println("----------------");
         droppedOff.forEach(passenger -> {
-            Set<Integer> set = Set.of(passenger.getFloorTo());
-            int newNextFloor = RandomGenerator.generateIntExceptingValues(MAX_NUMBER_OF_FLOORS, set);
-            passenger.setFloorTo(newNextFloor);
-            floors.get(currentFloor).addPassenger(passenger);
+            //Set<Integer> set = Set.of(passenger.getFloorTo());
+            //int newNextFloor = RandomGenerator.generateIntExceptingValues(MAX_NUMBER_OF_FLOORS, set);
+            //passenger.setFloorTo(newNextFloor);
+            floors.get(currentFloor-1).addPassenger(passenger);
         });
     }
 
     private boolean isFinishFloor() {
         if (liftState.size() > 0) {
-            return currentFloor == liftState.stream().max(Comparator.comparingInt(Passenger::getFloorTo)).get().getFloorTo();
+            if(direction == UP){
+                return currentFloor == liftState.stream().max(Comparator.comparingInt(Passenger::getFloorTo)).get().getFloorTo();
+            }
+            return currentFloor == liftState.stream().min(Comparator.comparingInt(Passenger::getFloorTo)).get().getFloorTo();
         }
         return false;
     }
 
     private boolean isTheFirst(int currentFloor) {
-        return currentFloor == 0;
+        return currentFloor == 1;
     }
 
     private boolean isLast(int currentFloor) {
-        return currentFloor == numberOfFloors - 1;
+        return currentFloor == numberOfFloors;
     }
 
 
@@ -160,6 +176,7 @@ public class Lift {
     public void print(){
         System.out.println("currentFloor: " + lift.getCurrentFloor());
         System.out.println("lift state: " + lift.getLiftState());
+        System.out.println("direction: " + direction.name());
         int cnt = 0;
         for (Floor floor : lift.getFloors()) {
             System.out.println(++cnt +" == " + floor);

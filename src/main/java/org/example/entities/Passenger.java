@@ -40,5 +40,6 @@ public class Passenger {
     @Override
     public String toString() {
         return "" + floorTo;
+//        return "[id="+id + " f=" + floorTo+"]";
     }
 }
