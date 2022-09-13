@@ -4,7 +4,6 @@ import lombok.ToString;
 
 import java.util.List;
 
-@ToString
 public class Floor {
     private final List<Passenger> passengers;
 
@@ -30,4 +29,12 @@ public class Floor {
         return passengers;
     }
 
+    @Override
+    public String toString() {
+        String result = "";
+        for (Passenger passenger : passengers) {
+            result += passenger + " ";
+        }
+        return result;
+    }
 }

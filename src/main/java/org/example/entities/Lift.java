@@ -19,7 +19,7 @@ import static org.example.entities.Direction.*;
 @Log4j2
 public class Lift {
     private static final int MIN_NUMBER_OF_FLOORS = 5;//5
-    private static final int MAX_NUMBER_OF_FLOORS = 7;//20
+    private static final int MAX_NUMBER_OF_FLOORS = 5;//20
     private static final int LIFT_CAPACITY = 5;
     private static final int MAX_INIT_NUMBER_ON_A_FLOOR = 5;//10
 
